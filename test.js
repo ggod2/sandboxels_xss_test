@@ -1,1 +1,2 @@
 alert("a");
+logMessage("a")
