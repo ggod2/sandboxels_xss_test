@@ -1,4 +1,4 @@
-# Cross-site scripting vulnerability for Sandboxels 1.9 - 1.9.5
+# Cross-site scripting vulnerability for Sandboxels 1.9 - 1.9.5 ([CVE-2024-39828](https://nvd.nist.gov/vuln/detail/CVE-2024-39828))
 This report details a cross-site scripting (XSS) vulnerability in Sandboxels (https://sandboxels.r74n.com/) affecting versions 1.9 to 1.9.5. The vulnerability can be exploited without requiring any game modifications.
 
 ## Vulnerability Overview
