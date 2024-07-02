@@ -1,6 +1,8 @@
 # Cross-site scripting vulnerability for Sandboxels 1.9 - 1.9.5 ([CVE-2024-39828](https://nvd.nist.gov/vuln/detail/CVE-2024-39828))
 This report details a cross-site scripting (XSS) vulnerability in Sandboxels (https://sandboxels.r74n.com/) affecting versions 1.9 to 1.9.5. The vulnerability can be exploited without requiring any game modifications.
 
+### This exploit has been patched in a hotfix for version 1.9.5
+
 ## Vulnerability Overview
 Sandboxels has a feature that lets some elements clone other pixels. Each cloning element (referred to as a "cloner") starts cloning the first pixel it touches. That pixel's element is displayed below the game canvas when hovering over the cloner.
 
